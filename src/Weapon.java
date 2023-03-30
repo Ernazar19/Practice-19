@@ -1,2 +1,14 @@
-package PACKAGE_NAME;public class Weapon {
+public class Weapon {
+    private WeaponType weaponType;
+    public Weapon(WeaponType weaponType) {
+        this.weaponType = weaponType;
+    }
+
+    public WeaponType getWeaponType() {
+        return weaponType;
+    }
+
+    public void setWeaponType(WeaponType weaponType) {
+        this.weaponType = weaponType;
+    }
 }
